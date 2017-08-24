@@ -12,6 +12,7 @@
 		ACE0DD521F4E396B00E6EC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE0DD501F4E396B00E6EC9D /* Main.storyboard */; };
 		ACE0DD541F4E396B00E6EC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE0DD531F4E396B00E6EC9D /* Assets.xcassets */; };
 		ACE0DD571F4E396B00E6EC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE0DD551F4E396B00E6EC9D /* LaunchScreen.storyboard */; };
+		ACE0DD5F1F4E553900E6EC9D /* TerceiraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0DD5E1F4E553900E6EC9D /* TerceiraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		ACE0DD531F4E396B00E6EC9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACE0DD561F4E396B00E6EC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE0DD581F4E396B00E6EC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACE0DD5E1F4E553900E6EC9D /* TerceiraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceiraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				ACE0DD4C1F4E396B00E6EC9D /* AppDelegate.swift */,
 				ACE0DD4E1F4E396B00E6EC9D /* ViewController.swift */,
 				ACE0DD501F4E396B00E6EC9D /* Main.storyboard */,
+				ACE0DD5E1F4E553900E6EC9D /* TerceiraViewController.swift */,
 				ACE0DD531F4E396B00E6EC9D /* Assets.xcassets */,
 				ACE0DD551F4E396B00E6EC9D /* LaunchScreen.storyboard */,
 				ACE0DD581F4E396B00E6EC9D /* Info.plist */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACE0DD5F1F4E553900E6EC9D /* TerceiraViewController.swift in Sources */,
 				ACE0DD4F1F4E396B00E6EC9D /* ViewController.swift in Sources */,
 				ACE0DD4D1F4E396B00E6EC9D /* AppDelegate.swift in Sources */,
 			);
