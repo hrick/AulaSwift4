@@ -33,6 +33,7 @@ class TerceiraViewController: UIViewController {
     */
 
     @IBAction func close(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+       // dismiss(animated: true, completion: nil)
+        navigationController?.popViewController(animated: true)
     }
 }

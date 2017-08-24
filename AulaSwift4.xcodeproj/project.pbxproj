@@ -13,6 +13,10 @@
 		ACE0DD541F4E396B00E6EC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACE0DD531F4E396B00E6EC9D /* Assets.xcassets */; };
 		ACE0DD571F4E396B00E6EC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE0DD551F4E396B00E6EC9D /* LaunchScreen.storyboard */; };
 		ACE0DD5F1F4E553900E6EC9D /* TerceiraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0DD5E1F4E553900E6EC9D /* TerceiraViewController.swift */; };
+		ACE0DD611F4E613F00E6EC9D /* TabNavigation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACE0DD601F4E613F00E6EC9D /* TabNavigation.storyboard */; };
+		ACE0DD631F4E648E00E6EC9D /* CyanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0DD621F4E648E00E6EC9D /* CyanViewController.swift */; };
+		ACE0DD661F4E653B00E6EC9D /* SeiLaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE0DD641F4E653B00E6EC9D /* SeiLaViewController.swift */; };
+		ACE0DD671F4E653B00E6EC9D /* SeiLaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACE0DD651F4E653B00E6EC9D /* SeiLaViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		ACE0DD561F4E396B00E6EC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACE0DD581F4E396B00E6EC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACE0DD5E1F4E553900E6EC9D /* TerceiraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerceiraViewController.swift; sourceTree = "<group>"; };
+		ACE0DD601F4E613F00E6EC9D /* TabNavigation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabNavigation.storyboard; sourceTree = "<group>"; };
+		ACE0DD621F4E648E00E6EC9D /* CyanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyanViewController.swift; sourceTree = "<group>"; };
+		ACE0DD641F4E653B00E6EC9D /* SeiLaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeiLaViewController.swift; sourceTree = "<group>"; };
+		ACE0DD651F4E653B00E6EC9D /* SeiLaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeiLaViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				ACE0DD4C1F4E396B00E6EC9D /* AppDelegate.swift */,
 				ACE0DD4E1F4E396B00E6EC9D /* ViewController.swift */,
 				ACE0DD501F4E396B00E6EC9D /* Main.storyboard */,
+				ACE0DD601F4E613F00E6EC9D /* TabNavigation.storyboard */,
+				ACE0DD641F4E653B00E6EC9D /* SeiLaViewController.swift */,
+				ACE0DD651F4E653B00E6EC9D /* SeiLaViewController.xib */,
+				ACE0DD621F4E648E00E6EC9D /* CyanViewController.swift */,
 				ACE0DD5E1F4E553900E6EC9D /* TerceiraViewController.swift */,
 				ACE0DD531F4E396B00E6EC9D /* Assets.xcassets */,
 				ACE0DD551F4E396B00E6EC9D /* LaunchScreen.storyboard */,
@@ -128,6 +140,8 @@
 			files = (
 				ACE0DD571F4E396B00E6EC9D /* LaunchScreen.storyboard in Resources */,
 				ACE0DD541F4E396B00E6EC9D /* Assets.xcassets in Resources */,
+				ACE0DD671F4E653B00E6EC9D /* SeiLaViewController.xib in Resources */,
+				ACE0DD611F4E613F00E6EC9D /* TabNavigation.storyboard in Resources */,
 				ACE0DD521F4E396B00E6EC9D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACE0DD5F1F4E553900E6EC9D /* TerceiraViewController.swift in Sources */,
+				ACE0DD631F4E648E00E6EC9D /* CyanViewController.swift in Sources */,
 				ACE0DD4F1F4E396B00E6EC9D /* ViewController.swift in Sources */,
+				ACE0DD661F4E653B00E6EC9D /* SeiLaViewController.swift in Sources */,
 				ACE0DD4D1F4E396B00E6EC9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

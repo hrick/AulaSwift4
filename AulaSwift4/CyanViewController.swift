@@ -31,5 +31,11 @@ class CyanViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func showNewScreen(_ sender: Any) {
+        let newScreen = SeiLaViewController(nibName: "SeiLaViewController", bundle: nil)
+    //    present(newScreen, animated: true, completion: nil)
+        navigationController?.pushViewController(newScreen, animated: true)
+        
+    }
 
 }

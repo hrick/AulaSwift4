@@ -21,6 +21,9 @@ class SeiLaViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func close(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
